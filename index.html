@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Condensed&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae846c5386.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Dynamic Cards Builder</title>
+
+</head>
+
+<body>
+    <h1>Dynamic Cards Builder</h1>
+    <div class="container">
+        <div class="input-container">
+            <div class="detail">
+                <div class="inp">
+                    <input type="text" name="title" id="title" placeholder="title name">
+                    <input type="number" name="videonum" id="videonum" placeholder="video">
+                    <div class="duration-div">
+                        <input type="number" name="durationStart" id="durationStart" placeholder="video duration min">
+                        <input type="number" name="durationEnd" id="durationEnd" placeholder="video duration sec">
+                    </div>
+                    <input type="text" name="cName" id="cName" placeholder="channel name">
+                    <input type="number" name="views" id="views" placeholder="views">
+                    <input type="number" name="months" id="months" placeholder="months ago">
+                </div>
+                <button class="btn">Submit</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card-content">
+                <div class="card-heading">
+                    <p>Add Videos Below - Dynamic Website Builder </p>
+                    <div class="card-span">
+                        <span class="shuffle"><i class="fa-solid fa-shuffle"></i></span>
+                        <span class="repeat"><i class="fa-solid fa-repeat"></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLB0alxLSXCSEPITzWr-XXUiv1oglQ"
+                            alt="img">
+                        <div class="capsule"><span>30</span>:<span>22</span></div>
+                    </div>
+                    <div class="text">
+                        <p>Introduction to JavaScript | Tutorial #<span>01</span></p>
+                        <p>CodeWithHarry . 727K views . 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
